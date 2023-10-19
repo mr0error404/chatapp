@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "259947065339",
+    "project_id": "chat-6ch",
+    "storage_bucket": "chat-6ch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259947065339:android:495caa4b185256284ee55e",
+        "android_client_info": {
+          "package_name": "com.example.chatappfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC08M6vDZz5DiIrhTZMg2iKpKGvrILKx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
