@@ -1,5 +1,6 @@
 import 'package:chatapp/screens/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../../main.dart';
 
@@ -15,7 +16,14 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Future.delayed(Duration(milliseconds: 1500), () {
+    // Future.delayed(Duration(milliseconds: 1500), () {
+    Future.delayed(Duration(seconds: 1), () {
+      SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+      SystemChrome.setSystemUIOverlayStyle(
+        const SystemUiOverlayStyle(
+          statusBarColor: Colors.black,
+        ),
+      );
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
